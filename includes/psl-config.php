@@ -1,28 +1,20 @@
 <?php
-
-    // define("HOST", "localhost"); 			// The host you want to connect to. 
-    // define("USER", "root"); 			// The database username. 
-    // define("PASSWORD", ""); 	// The database password. 
-    // define("DATABASE", "crm_elbossinmobiliaria");             // The database name.
-    // $hostname = 'localhost';
-    // $database = 'crm_elbossinmobiliaria';
-    // $username = 'root';
-    // $password = '';
-    // $database = new PDO("mysql:host=$hostname;dbname=$database;charset=utf8",$username,$password);
+//  Configuracion de base de datos
+    define("HOST", "localhost"); 
+    define("USER", "root"); 			
+    define("PASSWORD", ""); 	
+    define("DATABASE", "crm_elbossinmobiliaria");             
+    $hostname = 'localhost';
+    $database = 'crm_elbossinmobiliaria';
+    $username = 'root';
+    $password = '';
+    $database = new PDO("mysql:host=$hostname;dbname=$database;charset=utf8",$username,$password);
 
 
 // ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    define("HOST", "db5006942057.hosting-data.io"); 			// The host you want to connect to. 
-    define("USER", "dbu207866"); 			// The database username. 
-    define("PASSWORD", "NFsUi2da@p#J6yL"); 	// The database password. 
-    define("DATABASE", "dbs5731927");             // The database name.
-    $hostname = 'db5006942057.hosting-data.io';
-    $database = 'dbs5731927';
-    $username = 'dbu207866';
-    $password = 'NFsUi2da@p#J6yL';
-    $database = new PDO("mysql:host=$hostname;dbname=$database;charset=utf8",$username,$password);
+ 
 
 
 
@@ -44,5 +36,5 @@
         $ImageDefault="645dsfssd65f98sdf5sd6f5ssfsddsff.png";
         $SymbolEuro = "€";
         $SymbolSub = "m²";
-        $emailhosting = "zs7@gcloud.ua.es";
+        $emailhosting = "Your@mail.com";
 ?>
